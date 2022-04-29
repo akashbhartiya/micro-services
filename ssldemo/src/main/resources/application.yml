@@ -1,0 +1,9 @@
+server:
+  ssl:
+    enabled: true
+    key-store: classpath:dataflow.keystore
+    key-store-password: dataflow
+    key-store-type: jks
+    key-alias: dataflow
+    key-password: dataflow
+  port: 9000
